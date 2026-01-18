@@ -1,6 +1,84 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  /* Primary Colors */
+  --color-primary-50: #f0f7f4;
+  --color-primary-100: #dceee6;
+  --color-primary-200: #b9ddd0;
+  --color-primary-300: #8dc5b3;
+  --color-primary-400: #62a793;
+  --color-primary-500: #458b78;
+  --color-primary-600: #347060;
+  --color-primary-700: #2c5b4f;
+  --color-primary-800: #284e36;
+  --color-primary-900: #1f3d2b;
+  --color-primary-950: #0f2318;
+
+  /* Neutral Colors */
+  --color-neutral-50: #f9f9f9;
+  --color-neutral-100: #efefef;
+  --color-neutral-200: #e5e5e5;
+  --color-neutral-300: #d4d4d4;
+  --color-neutral-400: #a3a3a3;
+  --color-neutral-500: #737373;
+  --color-neutral-600: #525252;
+  --color-neutral-700: #404040;
+  --color-neutral-800: #262626;
+  --color-neutral-900: #151515;
+  --color-neutral-950: #0a0a0a;
+
+  /* Card Colors */
+  --color-card-50: #fdfcf7;
+  --color-card-100: #faf8ed;
+  --color-card-200: #f8f5e0;
+  --color-card-300: #f3f1da;
+  --color-card-400: #ebe8c8;
+  --color-card-500: #e0dcb3;
+  --color-card-600: #cec795;
+  --color-card-700: #b8ad76;
+  --color-card-800: #9a8f5f;
+  --color-card-900: #7d744e;
+  --color-card-950: #423e29;
+
+  /* Success Colors */
+  --color-success-50: #f0fdf4;
+  --color-success-100: #dcfce7;
+  --color-success-200: #bbf7d0;
+  --color-success-300: #86efac;
+  --color-success-400: #4ade80;
+  --color-success-500: #22c55e;
+  --color-success-600: #16a34a;
+  --color-success-700: #15803d;
+  --color-success-800: #166534;
+  --color-success-900: #14532d;
+  --color-success-950: #052e16;
+
+  /* Warning Colors */
+  --color-warning-50: #fffbeb;
+  --color-warning-100: #fef3c7;
+  --color-warning-200: #fde68a;
+  --color-warning-300: #fcd34d;
+  --color-warning-400: #fbbf24;
+  --color-warning-500: #f59e0b;
+  --color-warning-600: #d97706;
+  --color-warning-700: #b45309;
+  --color-warning-800: #92400e;
+  --color-warning-900: #78350f;
+  --color-warning-950: #451a03;
+
+  /* Error Colors */
+  --color-error-50: #fef2f2;
+  --color-error-100: #fee2e2;
+  --color-error-200: #fecaca;
+  --color-error-300: #fca5a5;
+  --color-error-400: #f87171;
+  --color-error-500: #ef4444;
+  --color-error-600: #dc2626;
+  --color-error-700: #b91c1c;
+  --color-error-800: #991b1b;
+  --color-error-900: #7f1d1d;
+  --color-error-950: #450a0a;
+}
 
 @layer base {
   body {
